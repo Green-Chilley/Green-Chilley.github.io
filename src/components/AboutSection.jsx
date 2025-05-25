@@ -1,3 +1,5 @@
+import { ShieldHalf, Code, Gamepad2 } from "lucide-react"
+
 export const AboutSection = () => {
     return (
         <section id="about" className="py-24 px-4 relative">
@@ -21,7 +23,60 @@ export const AboutSection = () => {
                             Graduating in September 2025 from the University of Adelaide, I hope to land a job in a company 
                             that values security, growth, and collaboration, where I can apply my skills and keep learning as a SOC Analyst.
                         </p>
-    
+
+                        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+                            <a href="#contact" className="cosmic-button">
+                                Get In Touch
+                            </a>
+                            <a 
+                                href="" 
+                                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+                            >
+                                Download CV
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 gap-6">
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <Code className="h-6 w-6 text-primary"/>
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg"> Beginner Web Development</h4>
+                                    <p className="text-muted-foreground">
+                                        Creating responsive websites using modern frameworks.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <Gamepad2 className="h-6 w-6 text-primary"/>
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg"> Game Design</h4>
+                                    <p className="text-muted-foreground">
+                                        Designing a wide variety of video game experiences in all forms of technology.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
+                                    <ShieldHalf className="h-6 w-6 text-primary"/>
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg"> Cybersecurity Student / Learner</h4>
+                                    <p className="text-muted-foreground">
+                                        Self taught SOC analyst preparing to enter the world of Cybersecurity.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
