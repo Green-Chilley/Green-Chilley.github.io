@@ -11,5 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     }
   },
-  base: "/Green-Chilley.github.io",
+  base: "/leo-portfolio/",
 });
