@@ -6,6 +6,7 @@ import { ThemeToggle } from "../components/ThemeToggle"
 import { StarBackground } from '@/components/StarBackground';
 import { ProjectsSection } from "../components/ProjectsSection";
 import { ContactSection } from "../components/ContactSection";
+import { Footer } from '@/components/Footer'
 
 
 export const Home = () => {
@@ -29,5 +30,6 @@ export const Home = () => {
             </main>
 
         {/* Footer */}
+            <Footer />
     </div>
 }
