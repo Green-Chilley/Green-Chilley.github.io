@@ -5,7 +5,7 @@ export const AboutSection = () => {
         <section id="about" className="py-24 px-4 relative">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-                    About <span className="text-primary"> Me</span>
+                    About <span className="text-primary transition-colors"> Me</span>
                 </h2>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center md:text-left">
@@ -21,7 +21,7 @@ export const AboutSection = () => {
 
                         <p className="text-muted-foreground">
                             Graduating in September 2025 from the University of Adelaide, I hope to land a job in a company 
-                            that values security, growth, and collaboration, where I can apply my skills and keep learning as a SOC Analyst.
+                            that values inclusivity, growth, and collaboration, where I can apply my skills and keep learning as a SOC Analyst.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -29,7 +29,8 @@ export const AboutSection = () => {
                                 Get In Touch
                             </a>
                             <a 
-                                href="" 
+                                href="/public/Resume.pdf"
+                                download="leo_resume"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
                                 Download CV

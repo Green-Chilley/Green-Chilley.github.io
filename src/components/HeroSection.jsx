@@ -15,8 +15,8 @@ export const HeroSection = () => {
                 </h1> */}
                 <h1 className="typewriter text-4xl md:text-6xl font-bold tracking-tight">
                     <span>Hello, I'm</span>
-                    <span className="text-primary"> Leo</span>
-                    <span className="text-gradient ml-2"> Nguyen</span>
+                    <span className="text-primary transition-colors"> Leo</span>
+                    <span className="text-gradient ml-2"> Nguyen.</span>
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-8 ">
