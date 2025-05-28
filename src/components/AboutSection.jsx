@@ -16,7 +16,7 @@ export const AboutSection = () => {
 
                         <p className="text-muted-foreground">
                             With some experience in Security Analysis and Blue Teaming, I constantly experiment 
-                            with new ways to enhance threat detection, break systems and improve my learning by starting my own SIEM system.
+                            with new ways to enhance threat detection, break systems and improve my learning by starting my own home lab.
                         </p>
 
                         <p className="text-muted-foreground">
