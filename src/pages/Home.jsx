@@ -5,6 +5,7 @@ import { SkillsSection } from "../components/SkillsSection";
 import { ThemeToggle } from "../components/ThemeToggle"
 import { StarBackground } from '@/components/StarBackground';
 import { ProjectsSection } from "../components/ProjectsSection";
+import { Writeup } from "@/components/Writeup";
 import { ContactSection } from "../components/ContactSection";
 import { Footer } from '@/components/Footer'
 
@@ -25,6 +26,7 @@ export const Home = () => {
                 <AboutSection />
                 <SkillsSection />
                 <ProjectsSection />
+                <Writeup />
                 <ContactSection />
             </main>
 

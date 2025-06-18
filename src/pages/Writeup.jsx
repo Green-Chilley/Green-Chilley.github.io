@@ -1,7 +1,7 @@
-import { ThemeToggle } from "../components/ThemeToggle"
+import { ThemeToggle } from "@/components/ThemeToggle"
 import { StarBackground } from '@/components/StarBackground';
 import { Footer } from '@/components/Footer'
-import { Navbar } from '@/components/Writeups/NavbarW'
+import { Navbar } from "@/components/Navbar";
 import { Main } from "@/components/Writeups/Main";
 
 export const Writeup = () => {

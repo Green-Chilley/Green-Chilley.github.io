@@ -1,7 +1,7 @@
 import { ThemeToggle } from "@/components/ThemeToggle"
 import { StarBackground } from '@/components/StarBackground';
 import { Footer } from '@/components/Footer'
-import { Navbar } from '@/components/Writeups/NavbarW'
+import { Navbar } from "@/components/Navbar";
 
 export const Writeup1 = () => {
     return (<div className="min-h-screen bg-background text-foreground overflow-x-hidden">
