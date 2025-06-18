@@ -14,7 +14,7 @@ export const Writeup1 = () => {
             <Navbar />
             
         {/* Writeups */}
-        <div id="main" className="relative min-h-screen px-4">
+        <div id="writeup1" className="relative min-h-screen px-4">
             <div id="hero" className="container max-w-6xl mx-auto z-10">
                 <h1 className="text-4xl md:text-6xl pt-50 pb-10 font-bold tracking-tight">
                     Pickle Rick
@@ -35,14 +35,14 @@ export const Writeup1 = () => {
                     waiting for the scans to complete.
                 </p>
 
-                <img src='/assets/writeup1-1.png' alt='img1' />
+                <img src='/assets/writeup1/writeup1-1.png' alt='img1' />
 
                 <p className="text-left text-muted-foreground p-4">
                     A comment conveniently revealing Rick's username. Gobuster gave promising results, revealing some directories.
                 </p>
 
                 <img
-                    src='/assets/writeup1-2.png'
+                    src='/assets/writeup1/writeup1-2.png'
                     alt='img2'
                     className="mx-auto"
                 />
@@ -53,18 +53,18 @@ export const Writeup1 = () => {
                 </p>
 
                 <img
-                    src='/assets/writeup1-3.png'
+                    src='/assets/writeup1/writeup1-3.png'
                     alt='img3'
                     className="mx-auto pb-3.5"
                 />
                 <img
-                    src='/assets/writeup1-4.png'
+                    src='/assets/writeup1/writeup1-4.png'
                     alt='img4'
                     className="mx-auto"
                 />
                 
                 <img
-                    src='/assets/writeup1-4.png'
+                    src='/assets/writeup1/writeup1-4.png'
                     alt='img4'
                     className="mx-auto"
                 />
@@ -74,7 +74,7 @@ export const Writeup1 = () => {
                 </p>
 
                 <img
-                    src='/assets/writeup1-5.png'
+                    src='/assets/writeup1/writeup1-5.png'
                     alt='img5'
                     className="mx-auto"
                 />
@@ -84,7 +84,7 @@ export const Writeup1 = () => {
                 </h1>
 
                 <img
-                    src='/assets/writeup1-6.png'
+                    src='/assets/writeup1/writeup1-6.png'
                     alt='img6'
                     className="mx-auto"
                 />
@@ -111,7 +111,7 @@ export const Writeup1 = () => {
                 </p>
 
                 <img
-                    src='/assets/writeup1-7.png'
+                    src='/assets/writeup1/writeup1-7.png'
                     alt='img7'
                     className="mx-auto"
                 />
@@ -121,12 +121,12 @@ export const Writeup1 = () => {
                 </p>
 
                 <img
-                    src='/assets/writeup1-8.png'
+                    src='/assets/writeup1/writeup1-8.png'
                     alt='img8'
                     className="mx-auto pb-3.5"
                 />
                 <img
-                    src='/assets/writeup1-9.png'
+                    src='/assets/writeup1/writeup1-9.png'
                     alt='img9'
                     className="mx-auto"
                 />

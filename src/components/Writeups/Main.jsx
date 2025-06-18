@@ -1,4 +1,3 @@
-import { NotebookText } from "lucide-react"
 import { Link } from "react-router-dom"
 
 const writeups = [
@@ -9,6 +8,14 @@ const writeups = [
         from: "TryHackMe",
         difficulty: "Easy",
         link: "/writeup/writeup1",
+    },
+    {
+        id: 2,
+        title: "Neighbour",
+        description: "Check out our new cloud service, Authentication Anywhere. Can you find other user's secrets?",
+        from: "TryHackMe",
+        difficulty: "Easy",
+        link: "/writeup/writeup2",
     },
 ];
 

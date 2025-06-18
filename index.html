@@ -11,4 +11,9 @@
     <div id="root"></div>
     <script type="module" src="./src/main.jsx"></script>
   </body>
+  <script>
+    if (localStorage.getItem("theme") === "dark") {
+      document.documentElement.classList.add("dark");
+    }
+  </script>
 </html>

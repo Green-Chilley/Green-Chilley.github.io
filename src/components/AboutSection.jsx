@@ -21,7 +21,7 @@ export const AboutSection = () => {
 
                         <p className="text-muted-foreground">
                             Graduating in September 2025 from the University of Adelaide, I hope to land a job in a company 
-                            that values inclusivity, growth, and collaboration, where I can apply my skills and keep learning as a SOC Analyst.
+                            that values inclusivity, growth, and collaboration, where I can apply my skills and continue learning as a SOC Analyst.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
